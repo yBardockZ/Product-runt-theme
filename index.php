@@ -22,6 +22,14 @@
                 <li><a href="">Sobre</a></li>
                 <li><a href="">Contato</a></li>
             </ul>
+            <div class="menu-mobile">
+                <i class="fa-solid fa-align-right"></i>
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
             <div class="clear"></div>
             <br>
             <br>
@@ -101,6 +109,11 @@
             }
         ]
         });
+</script>
+<script>
+    $('.menu-mobile i').click(function() {
+        $('.menu-mobile').find('ul').slideToggle();
+    })
 </script>
 </body>
 </html>
