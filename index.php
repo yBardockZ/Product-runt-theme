@@ -90,7 +90,9 @@
     <section class="sobre-time">
         <div class="center">
             <div class="w50 time-descricao-2">
-                <h2>Um time experiente, <br>comunicador e coeso.</h2>
+                <div class="titulo-com-mancha">
+                    <h2>Um time experiente, <br>comunicador e coeso.</h2>
+                </div>
                 <p>A Product Runt acredita que marcas fortes são construídas a partir 
                     de transformações importantes e positivas na vida dos consumidores.
                     Exatamente como uma conversa que ganha forma, a ideia vira flâmula.

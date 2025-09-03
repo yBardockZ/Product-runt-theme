@@ -234,13 +234,31 @@ section.sobre-time {
     background-color:#f4f9fd;
 }
 
-.img-time img{
-    width: 100%;
-}
-
 .time-descricao-2 {
     margin-top: 90px;
 }
+
+.titulo-com-mancha {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.titulo-com-mancha::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: -120px;
+    right: -15px;
+    bottom: -15px;
+            
+    background-image: url(images/forma.png);
+    background-position: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+            
+    transform: scale(1.1) rotate(-2deg);
+        }
 
 .time-descricao-2 h2 {
     color: #202020;
@@ -255,6 +273,10 @@ section.sobre-time {
     margin-bottom: 10px;
     opacity: 0.8;
     max-width: 75%;
+}
+
+.img-time img{
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
