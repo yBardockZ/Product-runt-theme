@@ -50,6 +50,7 @@
     background: white;
     border-bottom: 1px solid #09C2DD;
 }
+.menu-mobile a {text-decoration: none}
 
 section.topo {
     padding-top: 40px;
@@ -63,7 +64,7 @@ section.topo {
 
 .menu-desktop {
     float: right;
-    color: white;
+    color: white; 
 }
 .menu-desktop li{
     display: inline-block;
@@ -90,13 +91,13 @@ section.topo {
 }
 
 .time-descricao p {
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 14px;
     max-width: 240px;
 }
 
 .time-descricao a {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 12px;
     display: inline-block;
     text-decoration: none;
@@ -107,7 +108,10 @@ section.topo {
     box-shadow: 0 20px 30px 0 rgba(37, 15, 138, 0.2);
 }
 
-.time-imagem img{max-width: 100%;}
+.time-imagem img{
+    margin-top: 20px;
+    max-width: 100%;
+}
 
 .circle {
     position: absolute;
@@ -128,6 +132,9 @@ section.topo {
     color: #1c4aa6;
 }
 
+
+/****SLICK SLIDER****/
+
 .section.clientes-slider {
     padding: 200px;
 }
@@ -145,6 +152,42 @@ section.topo {
 section.diferenciais {
     padding: 30px 0;
 }
+
+.slick-dotted ul{
+ list-style-type: none;
+ text-align: center;
+ position: relative;
+ margin-top:10px;
+}
+
+.slick-dotted li{
+ display: inline-block;
+ margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+ outline: 0;
+}
+
+.slick-dotted li button{
+ width: 16px;
+ height: 16px;
+ border-radius: 8px;
+ color: #d8d8d8;
+ border-width: 0;
+ background: #d8d8d8;
+ opacity: 1;
+ cursor: pointer;
+}
+
+li.slick-active button{
+ background: #0c3f8a;
+ color: #0c3f8a;
+}
+
+.slick-slide:focus { outline: none; }
+
+/**END SLICK**/
 
 section.diferenciais h2 {
    color: #202020;
@@ -186,49 +229,38 @@ section.diferenciais h2 {
     max-width: 100%;
 }
 
-
-/****SLICK SLIDER****/
-
-.slick-dotted ul{
- list-style-type: none;
- text-align: center;
- position: relative;
- margin-top:10px;
+section.sobre-time {
+    padding: 40px 0;
+    background-color:#f4f9fd;
 }
 
-.slick-dotted li{
- display: inline-block;
- margin: 0 7px;
+.img-time img{
+    width: 100%;
 }
 
-.slick-dotted button:focus{
- outline: 0;
+.time-descricao-2 {
+    margin-top: 90px;
 }
 
-.slick-dotted li button{
- width: 16px;
- height: 16px;
- border-radius: 8px;
- color: #d8d8d8;
- border-width: 0;
- background: #d8d8d8;
- opacity: 1;
- cursor: pointer;
+.time-descricao-2 h2 {
+    color: #202020;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 35px;
+    margin-bottom: 30px;
 }
 
-li.slick-active button{
- background: #0c3f8a;
- color: #0c3f8a;
+.time-descricao-2 p{
+    color: #272727;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    max-width: 75%;
 }
-
-.slick-slide:focus { outline: none; }
-
-/**END SLICK**/
 
 @media screen and (max-width: 768px) {
     .w50{width: 100%;}
     .box-single-diferenciais{width: 100%;}
-
     .menu-desktop{display: none;}
     .menu-mobile{display: block}
+    .img-time{margin-top: 30px;}
 }

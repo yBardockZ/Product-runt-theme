@@ -79,11 +79,36 @@
                 <div class="box-single-diferenciais">
                     <img src="images/ilustracao-03.png" alt="">
                     <h3>Comunicação one-To-one</h3>
-                    <p>O digital veio pra ficar, sem dúvidas, mas uma comunicação integrada de verdade exige clareza nas decisões</p>
+                    <p>O digital veio pra ficar, sem dúvidas, 
+                        mas uma comunicação integrada de verdade exige clareza nas decisões</p>
                 </div>
 
             </div>
         </div>
+    </section>
+
+    <section class="sobre-time">
+        <div class="center">
+            <div class="w50 time-descricao-2">
+                <h2>Um time experiente, <br>comunicador e coeso.</h2>
+                <p>A Product Runt acredita que marcas fortes são construídas a partir 
+                    de transformações importantes e positivas na vida dos consumidores.
+                    Exatamente como uma conversa que ganha forma, a ideia vira flâmula.
+                    <br>
+                    <br>
+                    Comunicar bem, de forma coerente e clara não é algo fácil 
+                    e estamos aqui para ajudar você e seu time. Você escolhe, 
+                    remoto ou presencial, para seu cliente ou seu público interno, você determina como vamos te ajudar.
+                </p>
+            </div>
+
+            <div class="w50 img-time">
+                <img src="images/ilustracao-04.png" alt="">
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
     </section>
     
 <script src="js/jquery.js"></script>
